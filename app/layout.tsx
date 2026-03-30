@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "모의 부동산 경매",
-  description: "낙찰가 예측 이벤트",
+  title: "HOMING-BIRD-AUCTION | 모의 부동산 경매",
+  description: "당신의 완벽한 보금자리를 찾아서 - 모의 경매 플랫폼",
+  icons: { icon: "/icon48.png" },
 };
 
 export default function RootLayout({
@@ -24,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="ko"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>

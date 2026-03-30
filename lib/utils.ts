@@ -1,5 +1,6 @@
 // 금액을 한국식으로 포맷 (억/만원 단위)
-export function formatPrice(price: number): string {
+export function formatPrice(price: number | null | undefined): string {
+  if (price == null) return "0원";
   const eok = Math.floor(price / 100000000);
   const man = Math.floor((price % 100000000) / 10000);
 

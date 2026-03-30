@@ -13,6 +13,7 @@ export type AuctionItem = {
   actual_price?: number;
   result_date?: string;
   result_open: boolean;
+  is_main: boolean;
   created_at: string;
 };
 
