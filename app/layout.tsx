@@ -16,6 +16,11 @@ export const metadata: Metadata = {
   title: "HOMING-BIRD-AUCTION | 모의 부동산 경매",
   description: "당신의 완벽한 보금자리를 찾아서 - 모의 경매 플랫폼",
   icons: { icon: "/icon48.png" },
+  openGraph: {
+    title: "HOMING-BIRD-AUCTION | 모의 부동산 경매",
+    description: "당신의 완벽한 보금자리를 찾아서 - 모의 경매 플랫폼",
+    images: [{ url: "/op.png" }],
+  },
 };
 
 export default function RootLayout({
